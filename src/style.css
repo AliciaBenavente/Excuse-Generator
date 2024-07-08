@@ -1,1 +1,45 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.box {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: rgb(30, 47, 104);
+    padding-top: 10%;
+    padding-bottom: 33%;
+  }
+
+  h1 {
+    color:#6246ff;
+  }
+  p {
+    color: rgb(22, 241, 131);
+  }
+  
+
+button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff80;
+    text-shadow: none;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+  }
+  
+  button:hover,
+  :focus {
+    color: rgb(255, 218, 218);
+    background: #005aa3;
+    border: 1px solid #008cff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+      0 0 100px #008cff;
+  }
+  
